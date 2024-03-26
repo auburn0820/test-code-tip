@@ -2,17 +2,12 @@ package org.example.testcodetip.service
 
 import com.appmattus.kotlinfixture.kotlinFixture
 import io.mockk.every
-import io.mockk.impl.annotations.MockK
 import io.mockk.mockk
-import org.assertj.core.api.Assertions
 import org.assertj.core.api.Assertions.assertThat
-import org.example.testcodetip.IntegrationTest
 import org.example.testcodetip.controller.request.CreateUserRequest
 import org.example.testcodetip.entity.User
 import org.example.testcodetip.repository.UserRepository
-import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.repository.findByIdOrNull
 
 
