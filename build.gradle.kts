@@ -25,7 +25,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-    testImplementation("com.h2database:h2")
+    testImplementation("com.h2database:h2:2.2.220")
 
     testImplementation("io.mockk:mockk:1.13.10") // For Mocking
     testImplementation("com.appmattus.fixture:fixture:1.2.0") // For make instances

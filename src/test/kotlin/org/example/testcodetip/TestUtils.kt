@@ -1,5 +1,6 @@
 package org.example.testcodetip
 
+import jakarta.transaction.Transactional
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.ActiveProfiles
 import org.springframework.test.context.TestConstructor
@@ -13,4 +14,5 @@ annotation class BaseTest
 
 @BaseTest
 @SpringBootTest
+@Transactional
 annotation class IntegrationTest
